@@ -1,0 +1,156 @@
+/* {margin: 3px; border: 1px dotted blue;} 
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+}
+
+main{
+    background-color: black;
+}
+
+header{
+    background-image: linear-gradient(0deg, rgba(19, 2, 12, 0.568), rgba(2, 0, 1, 0.534)), url(https://assets.nflxext.com/ffe/siteui/vlv3/85e22987-d2dd-46ca-b8b7-65cd0e31c24a/bdcd68e0-f95e-433e-ad75-4c891e0f7f4e/MX-es-20201123-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.buttonc > *{
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.head1 > h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.head1 > h2{
+    font-size: 30px;
+}
+
+.head1 > p{
+    font-size: 20px;
+}
+
+.comienza{
+    background-color: red;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    color: azure;
+}
+
+.email{
+    display: flex;
+
+    color: rgba(128, 128, 128, 0.623);
+}
+
+.email > input{
+    width: 500px;
+    height: 60px;
+
+}
+
+.subsections{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-left: 80px;
+    padding-right: 75px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 10px solid gray;
+
+}
+.subsections h2{
+    font-size: 40px;
+}
+.subsections p{
+    font-size: 1.625rem;
+}
+
+/*  .vid1 > img {
+    position: absolute;
+    z-index: 1;
+}
+
+.vid1 > video {
+    top: 10px;
+    z-index: 2;
+} */
+
+.video-our{
+    position: absolute;
+    top: 705px;
+    right: 150px;
+}
+
+.video-our2{
+    position: absolute;
+    top: 1650px;
+    right: 200px;
+    width: 400px;
+}
+
+
+footer {
+    background-color: black;
+}
+/* *{
+    background-color: black;
+} */
+.footers a {color:#696969;}
+.footers p {color:#696969;}
+.footers ul {line-height:30px;}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+
+ .col-8, .col-1 {
+    background-color: rgb(46, 44, 44);
+    color: rgb(224, 224, 224);
+}
+.row {
+    margin-top: 4px;
+    background-color: black;
+}
+.col-1 {
+    text-align: center;
+}
+.col-9 {
+    background-color: rgb(46, 44, 44);;
+    font-size: 20px;
+}
+
